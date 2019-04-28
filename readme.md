@@ -8,3 +8,7 @@
 * 7.npm run dev
 
 ![前端设计模式](/img/前端设计模式.png)
+
+### 工厂模式
+UML 类图
+![工厂模式](/img/UML_factory.png)

@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 
 module.exports = {
-    entry: './src/park.js',
+    entry: './src/adapter.js',
     output: {
         path: __dirname,
         filename: './release/bundle.js'
@@ -24,6 +24,6 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, '/release'),
         open: true,
-        port: 9000
+        port: 9009
     }
 }
